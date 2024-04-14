@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6 Javascript Mandatory | The Petrol Calculator</title>
+
+    <link rel="stylesheet" href="Petrol-Calcu-CSS.css">
+    <script src="Petrol-Calcu-JAVA.js"></script>
+
+    <!--CHOSEN FONT FROM GOOGLEFONTS FOR STYLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20+Charted&family=Petrona:ital,wght@0,100..900;1,100..900&family=VT323&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1 id="title">Petrol Calculator - For all UAE Residents</h1>
+    <img src="Image/petrol-station-location.png" alt="Petrol Station" class =specific-img>
+
+    <div class="container">
+        <h2>Petrol Calculator</h2>
+
+    <!--FOR THE COST PER LITER-->
+    <label for="costPerLiter">Cost of Petrol per Liter:</label>
+    <input type="number" id="costPerLiter" step="0.01" value="1.72">
+    </div>
+
+    <div class="input">
+    <!--FOR THE COST OF X OF LITERS PURCHASED-->
+    <label for="numberOfLiters">Number of Liters Purchased:</label>
+    <input type="number" id="numberOfLiters" value="0">
+    </div>
+
+    <div class="button"> <!--THE BUTTON IS HERE-->
+    <button onclick="calculateTotalAmount()">Press HERE to Calculate The TOTAL AMOUNT</button>
+    </div>
+
+    <!--TO DISPLAY THE TOTAL AMOUNT-->
+    <p id="totalCost">The Total Amount: </p>
+    </div>
+
+<footer>
+     Chapter 6 | Mandatory Exercise
+</footer>
+    
+</body>
+</html>
+
+
