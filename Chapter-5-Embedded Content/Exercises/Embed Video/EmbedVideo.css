@@ -1,0 +1,21 @@
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    position: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 135px;
+}
+
+body {
+    background-color: black;
+  }
+
