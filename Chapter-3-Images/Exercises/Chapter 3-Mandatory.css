@@ -1,0 +1,29 @@
+
+/*Images Before CSS Filters*/
+.ogimages{
+    float: left;
+    width:33.33%;
+    padding:7px;
+}
+
+.ogimages::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Images After: 1st Image*/
+.editedimgs_1{
+    filter: invert(100%);
+  }
+
+/*Images After: 2nd Image*/
+.editedimgs_2 {
+    filter: sepia(100%);
+  }
+
+/*Images After: 3rd Image*/
+.editedimgs_3{
+    filter: grayscale(100%);
+  }
+  
