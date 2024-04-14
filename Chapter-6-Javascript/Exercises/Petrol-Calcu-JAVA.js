@@ -1,4 +1,3 @@
-
 function calculateTotalAmount() {
     var costPerLiter = document.getElementById("costPerLiter").value;
     var numberOfLiters = document.getElementById("numberOfLiters").value;
