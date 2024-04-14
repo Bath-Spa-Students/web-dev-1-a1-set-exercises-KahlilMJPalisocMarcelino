@@ -1,0 +1,87 @@
+body, h1, h2, p, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  body {
+    font-family: 'Cagliostro', sans-serif;
+    color:rgb(218, 172, 67);
+    background-color: #191a1b;
+  }
+  
+
+  header {
+    background-color: #7b1f11;
+    padding: 20px;
+    color: #cd9e1e;
+    position:center;
+  }
+  
+  h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 36px;
+    color: #d0962a;
+    position:center;
+  }
+  
+  p {
+    font-family: 'Cagliostro', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #c2b8a6;
+  }
+  
+ 
+  nav {
+    background-color: #0d632f;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  /*KEY FACTS TABLE*/
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+    background-color: #daceb8;
+    color: #7b1f11;
+  }
+  
+  th {
+    background-color: #d29b25;
+  }
+  
+  /*CAST&CREW TABLE */
+  #castPeople, #crewPeople {
+    margin-top: 20px;
+  }
+  
+  #theReviews {
+    margin-top: 20px;
+  }
+  
+  .rating {
+    margin-top: 20px;
+  }
+  
+  .stars-2-1 {
+    color: rgb(238, 237, 232);
+  }
+  
+  .checked {
+    color: rgb(249, 159, 3);
+    color: #c4bca7;
+  }
